@@ -23,7 +23,7 @@ else:
     print("False")
 
 if len(sys.argv) != 9:
-    print("Usage: python main.py row1 col1 row2 col2 ... row8 col8")
+    print("Usage: python bank_account.py row1 col1 row2 col2 ... row8 col8")
     sys.exit(1)
 positions = [(int(sys.argv[i]), int(sys.argv[i + 1])) for i in range(1, len(sys.argv), 2)]
 
